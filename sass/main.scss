@@ -3,18 +3,19 @@
 // 2.  Type npm run compile:sass to start the sass compiler
 // 3.  Start coding!
 
-
+@import "abstracts/variables";
 @import "abstracts/functions";
 @import "abstracts/mixins";
-@import "abstracts/variables";
 
-@import "base/base";
+
+@import "base/base"; 
 @import "base/animations";
 @import "base/typography";
 @import "base/utilities";
 
 @import "components/button";
 @import "components/composition";
+@import "components/feature-box";
 
 @import "layout/grid";
 @import "layout/header";
